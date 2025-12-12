@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protected Content</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .content-container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            max-width: 800px;
+            width: 100%;
+        }
+        .content-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .content-title {
+            font-size: 28px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .access-badge {
+            background: #22c55e;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .content-body {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #444;
+        }
+        .content-body h2 {
+            color: #333;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        .content-body p {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-container">
+        <div class="content-header">
+            <h1 class="content-title">{{.Title}}</h1>
+            <span class="access-badge">✓ Access Granted</span>
+        </div>
+        
+        <div class="content-body">
+            <h2>Premium Content</h2>
+            <p>{{.Content}}</p>
+            
+            <h2>Congratulations!</h2>
+            <p>You have successfully accessed this protected content using the Reverse Payment Proxy system. This demonstrates:</p>
+            
+            <ul>
+                <li><strong>SEPA QR Code Payments:</strong> You paid using a simple QR code scan in your banking app</li>
+                <li><strong>Real-time Processing:</strong> Your payment was detected and processed within seconds</li>
+                <li><strong>Instant Access:</strong> Content access was granted immediately after payment confirmation</li>
+                <li><strong>No PSP Fees:</strong> Direct bank-to-bank transfer with minimal transaction costs</li>
+                <li><strong>PSD2 Compliance:</strong> Leveraging European banking regulations for secure payments</li>
+            </ul>
+            
+            <h2>Technical Implementation</h2>
+            <p>This system uses:</p>
+            <ul>
+                <li>Go-based reverse proxy for seamless integration</li>
+                <li>PostgreSQL database with proper indexing and relationships</li>
+                <li>Real-time bank transaction monitoring</li>
+                <li>JWT-based authentication for merchants</li>
+                <li>Comprehensive logging and error handling</li>
+            </ul>
+            
+            <p><strong>Enjoy your premium content!</strong></p>
+        </div>
+    </div>
+</body>
+</html>

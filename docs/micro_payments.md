@@ -1,0 +1,3 @@
+Micro payments circumventing payment fees of PSP
+
+PSD2 requires direct payments to settle in 10 seconds. QR codes with SEPA payments are supported by many bank (apps). We need the ecommerce party to reply on a web request with such a QR code and then continously monitor it's bank account to check whether it is paid. Once paid it can show the paid content instead of the QR code. This can be implemented as a paywall software (a reverse proxy).

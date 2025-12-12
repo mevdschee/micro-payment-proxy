@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Successful</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .success-container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+        .success-icon {
+            font-size: 64px;
+            color: #22c55e;
+            margin-bottom: 20px;
+        }
+        .success-title {
+            font-size: 24px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 16px;
+        }
+        .success-message {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+        .btn {
+            background: #22c55e;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.2s;
+        }
+        .btn:hover {
+            background: #16a34a;
+        }
+    </style>
+</head>
+<body>
+    <div class="success-container">
+        <div class="success-icon">✓</div>
+        <h1 class="success-title">Payment Successful!</h1>
+        <p class="success-message">
+            Your payment has been confirmed and you now have access to the protected content.
+            This page will redirect you automatically in a few seconds.
+        </p>
+        <a href="javascript:history.back()" class="btn">Continue to Content</a>
+    </div>
+
+    <script>
+        // Auto redirect after 3 seconds
+        setTimeout(() => {
+            history.back();
+        }, 3000);
+    </script>
+</body>
+</html>
