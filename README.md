@@ -1,6 +1,7 @@
 ⚠️ **WARNING**
 This repository was **AI-generated** as part of a **one-day AI hackathon**.  
-The code, documentation, and outputs may contain inaccuracies, incomplete features, or experimental implementations.  
+The code, documentation, and outputs may contain inaccuracies, incomplete features, or experimental implementations.
+
 Use at your own risk — do not rely on this project for production use without thorough review and testing.
 
 # Micro Payment Proxy
