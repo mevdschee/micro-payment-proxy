@@ -1,3 +1,8 @@
+⚠️ Warning  
+This repository was **AI-generated** as part of a **one-day AI hackathon**.  
+The code, documentation, and outputs may contain inaccuracies, incomplete features, or experimental implementations.  
+Use at your own risk — do not rely on this project for production use without thorough review and testing.
+
 # Micro Payment Proxy
 
 A production-ready Go-based reverse proxy server for SEPA QR code micro-payments following PSD2 regulations. This system enables content creators to accept micro-payments with minimal fees by leveraging direct bank-to-bank transfers through QR codes.
