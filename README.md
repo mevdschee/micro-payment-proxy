@@ -1,4 +1,4 @@
-# Micro Payment Proxy Server
+# Micro Payment Proxy
 
 A production-ready Go-based reverse proxy server for SEPA QR code micro-payments following PSD2 regulations. This system enables content creators to accept micro-payments with minimal fees by leveraging direct bank-to-bank transfers through QR codes.
 
